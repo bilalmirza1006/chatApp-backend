@@ -4,6 +4,7 @@ export enum ErrorCode {
     INCORRECT_PASSWORD = 1003,
     UNPROCESSABLE_ENTITY = 1004,
     INTERNAL_EXCEPTION = 1005,
+    USER_UNAUTHORIZED = 1006, UN
 }
 
 export class HttpException extends Error {
